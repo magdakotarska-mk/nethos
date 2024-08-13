@@ -1,0 +1,66 @@
+.why-nethos {
+    padding: 8vh;
+    text-align: center;
+    background-color: #009FE3;
+}
+
+.section-title-green {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.features-grid {
+    display: grid;
+    max-width: 100%;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.feature-card {
+    background-color: #009FE3;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    height: 10vh;
+    transition: all ease-in-out 0.3s;
+}
+
+.feature-card:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    font-size: 24px;
+    color: #2a9d8f;
+}
+
+.feature-card h3 {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 1vh;
+}
+
+.contact-button {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #2a9d8f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.contact-button:hover {
+    background-color: #21867a;
+}

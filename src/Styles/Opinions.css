@@ -1,0 +1,31 @@
+.opinions {
+    padding: 8vh;
+    text-align: center;
+}
+
+.clients-slider {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.client-logo {
+    margin: 0 20px;
+}
+
+.join-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.slide-opinions {
+    height: max(150px, 1fr);
+    min-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
